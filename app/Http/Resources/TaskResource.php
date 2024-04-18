@@ -18,8 +18,8 @@ class TaskResource extends JsonResource
             'id' => $this->id,
             'task_name' => $this->task_name,
             'completed' => (boolean)$this->completed,
-            'created_at' => date('h:i a m/d/Y', strtotime($this->created_at)),
-            'updated_at' => date('h:i a m/d/Y', strtotime($this->updated_at)),
+            'created_at' => date('Y-m-d @ h:i a', strtotime($this->created_at)),
+            'updated_at' => date('Y-m-d @ h:i a', strtotime($this->updated_at)),
         ];
     }
 }
