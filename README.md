@@ -17,3 +17,5 @@ Branch: Section 16 - Worked with Eloquent API resource. Also validated and updat
 Branch: Section 18 - Created API endpoint for completing a task.
 
 Branch: Section 19 - Created API endpoint for deleting a task.
+
+Branch: Section 20 - Set up Laravel Sanctum.
