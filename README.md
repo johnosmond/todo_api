@@ -19,3 +19,5 @@ Branch: Section 18 - Created API endpoint for completing a task.
 Branch: Section 19 - Created API endpoint for deleting a task.
 
 Branch: Section 20 - Set up Laravel Sanctum.
+
+Branch: Section 21 - Set up an end point for logging in using SPA Authentication and successfully logged in as a new user."
